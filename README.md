@@ -6,7 +6,7 @@
 - CSS
 - JavaScript
 
-- [Ссылка на проект] https://korchinmv.github.io/mesto/
+- [Ссылка на проект] https://korchinmv.github.io/slider-js
 
 **О проекте**
 
