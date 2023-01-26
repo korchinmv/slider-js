@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Слайдер на JavaScript</title>
+  <script src="./scripts/index.js" type="module"></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Слайдер на JavaScript</h1>
+  </header>
+
+  <div class="wrapper">
+    <p class="slider-text">В спорте есть множество красивых девушек, которые достигли успеха и имеют отличное
+      физическое состояние. Это может быть как профессиональные спортсменки, так и аматоры, которые занимаются спортом
+      как хобби. (c) ChatGPT </p>
+
+    <ul class="slider">
+      <li class="slider__item">
+        <img class="slider__image" src="./images/photo-1.jpg" alt="Спортивная девушка">
+      </li>
+
+      <li class="slider__item hidden">
+        <img class="slider__image" src="./images/photo-2.jpg" alt="Спортивная девушка">
+      </li>
+
+      <li class="slider__item hidden">
+        <img class="slider__image" src="./images/photo-3.jpg" alt="Спортивная девушка">
+      </li>
+
+      <li class="slider__item hidden">
+        <img class="slider__image" src="./images/photo-4.jpg" alt="Спортивная девушка">
+      </li>
+
+      <li class="slider__item hidden">
+        <img class="slider__image" src="./images/photo-5.jpg" alt="Слайд">
+      </li>
+    </ul>
+
+    <div class="controls">
+      <button class="btn-prev">Назад</button>
+      <button class="btn-next">Вперед</button>
+    </div>
+  </div>
+</body>
+
+</html>
